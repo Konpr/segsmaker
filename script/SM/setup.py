@@ -24,7 +24,7 @@ TMP = Path('/tmp')
 
 SRC.mkdir(parents=True, exist_ok=True)
 
-version = "v1.10.1"
+version = "master"
 
 def load_css():
     with open(CSS, "r") as f:
@@ -237,7 +237,7 @@ def webui_install(ui, which_sd):
     with output:
         if ui == 'A1111':
             WEBUI = HOME / 'A1111'
-            repo = f'git clone --depth 1 -q -b {version} https://github.com/gutris1/A1111'
+            repo = f'git clone --depth 1 -q -b {version} https://github.com/Krek12/A1111'
             say("<b>【{red} Installing A1111{d} 】{red}</b>")
 
         elif ui == 'Forge':
