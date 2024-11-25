@@ -12,7 +12,7 @@ from pathlib import Path
 import os
 
 HOME = Path.home()
-SRC = HOME / '.Krek12'
+SRC = HOME / '.Konpr'
 CSS = SRC / 'setup.css'
 MARK = SRC / 'marking.py'
 IMG = SRC / 'loading.png'
@@ -27,7 +27,7 @@ SDTrainer = SRC / 'SDTrainer.py'
 KohyaSS = SRC / 'KohyaSS.py'
 
 SRC.mkdir(parents=True, exist_ok=True)
-m = f"curl -sLo {CSS} https://github.com/Krek12/segsmaker/raw/main/script/SM/setup.css"
+m = f"curl -sLo {CSS} https://github.com/Konpr/segsmaker/raw/main/script/SM/setup.css"
 get_ipython().system(m)
 
 def load_css():
@@ -81,12 +81,12 @@ def multi_widgets():
     x = [
         f"curl -sLo {IMG} https://github.com/Konpr/segsmaker/raw/main/script/SM/loading.png",
         f"curl -sLo {MARK} https://github.com/Konpr/segsmaker/raw/main/script/SM/marking.py",
-        f"curl -sLo {A1111} https://github.com/Krek12/segsmaker/raw/main/script/SM/A1111.py",
-        f"curl -sLo {Forge} https://github.com/Krek12/segsmaker/raw/main/script/SM/Forge.py",
-        f"curl -sLo {ComfyUI} https://github.com/Krek12/segsmaker/raw/main/script/SM/ComfyUI.py",
-        f"curl -sLo {ReForge} https://github.com/Krek12/segsmaker/raw/main/script/SM/ReForge.py",
-        f"curl -sLo {FaceFusion} https://github.com/Krek12/segsmaker/raw/main/script/SM/FaceFusion.py",
-        f"curl -sLo {SDTrainer} https://github.com/Krek12/segsmaker/raw/main/script/SM/SDTrainer.py",
+        f"curl -sLo {A1111} https://github.com/Konpr/segsmaker/raw/main/script/SM/A1111.py",
+        f"curl -sLo {Forge} https://github.com/Konpr/segsmaker/raw/main/script/SM/Forge.py",
+        f"curl -sLo {ComfyUI} https://github.com/Konpr/segsmaker/raw/main/script/SM/ComfyUI.py",
+        f"curl -sLo {ReForge} https://github.com/Konpr/segsmaker/raw/main/script/SM/ReForge.py",
+        f"curl -sLo {FaceFusion} https://github.com/Konpr/segsmaker/raw/main/script/SM/FaceFusion.py",
+        f"curl -sLo {SDTrainer} https://github.com/Konpr/segsmaker/raw/main/script/SM/SDTrainer.py",
         f"curl -sLo {KohyaSS} https://github.com/Konpr/segsmaker/raw/main/script/SM/KohyaSS.py"
     ]
 
