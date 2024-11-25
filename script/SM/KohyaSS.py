@@ -8,7 +8,7 @@ from nenen88 import say, download, tempe
 repo = f"git clone --recursive https://github.com/ofirlapi/kohya_ss KohyaSS"
 
 HOME = Path.home()
-SRC = HOME / '.Krek12'
+SRC = HOME / '.Konpr'
 CSS = SRC / 'setup.css'
 IMG = SRC / 'loading.png'
 MARK = SRC / 'marking.py'
